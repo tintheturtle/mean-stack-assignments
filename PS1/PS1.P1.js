@@ -2,7 +2,9 @@
 
 const reverseAlphabetical = (string) => {
 
-
-
-    return "";
+    let res = string.split(``).sort().reverse().join('');
+    return res;
 }
+
+console.log(reverseAlphabetical("test"));
+console.log(reverseAlphabetical("exioi"));
